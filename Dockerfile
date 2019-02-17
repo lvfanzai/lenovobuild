@@ -10,3 +10,4 @@ RUN apt-get update \
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV PATH /usr/lib/jvm/java-8-openjdk-amd64/bin:~/bin:$PATH
+ENV USER root
